@@ -1,0 +1,39 @@
+body {
+    /background-color: rgb(201, 0, 0);/ height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    /background-color: tomato;/ display: grid;
+    grid-template-rows: 25% 75%;
+    gap: 29px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    empty-cells: show;
+    padding: 11px;
+    margin: 2%;
+}
+
+.header {
+    background-color: rgb(31, 165, 218);
+}
+
+.thokozani {
+    background-color: rgb(168, 168, 168);
+    color: gray;
+}
+
+.low-attendance {
+    color: red;
+}
+
+.average {
+    color: blue;
+}
